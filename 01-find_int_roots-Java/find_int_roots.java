@@ -11,8 +11,14 @@ class find_int_roots {
 	public int[] fun_find_int_roots(int a, int b, int c){
 		// your code goes here
 		
-		int[] arr = {a,b,c};
-		return arr;
+		//int[] arr = {a,b,c};
+		int x = (-b + (int)Math.sqrt(b*b - 4*a*c))/2*a;
+		int y = (-b - (int)Math.sqrt(b*b - 4*a*c))/2*a;
+		int[] arr1 = {x,y};
+		return arr1;
 			
+	}
+	public static void main(String[] args) {
+				
 	}
 }
