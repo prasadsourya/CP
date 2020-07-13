@@ -15,10 +15,12 @@ class find_int_roots {
 		int x = (int)(-b + Math.sqrt(b*b - 4*a*c))/2*a;
 		int y = (int)(-b - Math.sqrt(b*b - 4*a*c))/2*a;
 		if (x>y) {
-
+			int[] arr1 = {y,x};
+			return arr1;
+		} else {
+			int[] arr2 = {x,y};
+			return arr2;
 		}
-		
-		return arr1;
 			
 	}
 	public static void main(String[] args) {
