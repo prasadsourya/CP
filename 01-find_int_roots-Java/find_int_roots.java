@@ -12,8 +12,8 @@ class find_int_roots {
 		// your code goes here
 		
 		//int[] arr = {a,b,c};
-		int x = (-b + (int)Math.sqrt(b*b - 4*a*c))/2*a;
-		int y = (-b - (int)Math.sqrt(b*b - 4*a*c))/2*a;
+		int x = (int)(-b + Math.sqrt(b*b - 4*a*c))/2*a;
+		int y = (int)(-b - Math.sqrt(b*b - 4*a*c))/2*a;
 		int[] arr1 = {x,y};
 		return arr1;
 			
