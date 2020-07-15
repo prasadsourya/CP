@@ -10,7 +10,7 @@ def fun_getinrange(x, bound1, bound2):
 	bound_max = max(bound1,bound2)
 	if (x<bound_max and x>bound_min):
 		return x
-	elif (x<bound):
-		return bound
-	elif (x>bound):
-		return bound
+	elif (x<bound_min):
+		return bound_min
+	elif (x>bound_max):
+		return bound_max
