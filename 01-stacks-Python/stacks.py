@@ -29,7 +29,7 @@ class LinkedList(object):
         if self.head==None:
             self.head=Element(new_element)
         else :
-            new_Element =Element(new_element)
+            new =Element(new_element)
             new_Element.next=self.head
             self.head=new_Element
 
@@ -41,9 +41,9 @@ class LinkedList(object):
             return None
         else:
             popped_element=self.head
-        self.head = self.head.next
-        popped_element.next=None
-        return popped_element.value
+            self.head = self.head.next
+            popped_element.next=None
+            return popped_element.value
 
 class stack(object):
     def __init__(self,top=None):
