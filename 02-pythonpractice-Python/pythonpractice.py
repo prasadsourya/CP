@@ -19,7 +19,6 @@ class Classy(object):
     def __init__(self):
         self.items = []
     def classy(self,x):
-        self.items = []
         self.items.append(x)
     def classiness(self,x):
         sum =0
