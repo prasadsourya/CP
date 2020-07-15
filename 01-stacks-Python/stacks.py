@@ -43,7 +43,8 @@ class stack(object):
 
     def push(self, new_element):
         "Push (add) a new element onto the top of the stack"
-        LinkedList.insert_first(self,new_element)
+        self.ll.insert_first(self)
+
 
     def pop(self):
         "Pop (remove) the first element off the top of the stack and return it"
