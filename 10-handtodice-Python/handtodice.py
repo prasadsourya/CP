@@ -8,5 +8,5 @@
 def handtodice(hand):
 	# your code goes here
 	x=hand//10
-	
+	y=ha
 	arr = (x,y,z)
