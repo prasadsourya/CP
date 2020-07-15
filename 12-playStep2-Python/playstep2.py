@@ -45,7 +45,7 @@ def playstep2(hand, dice):
 		z=(hand//100)%10
 		if (x==y):
 			if (dice%10)>x:
-				k= int(str(dice%10)+str(x)+str)
+				k= int(str(dice%10)+str(x)+str(y))
 		elif (y==z):
 			k= dicetoorderedhand(z,y,dice%10)
 		elif (x==z):
