@@ -27,18 +27,6 @@
 # Hint: Then, you may wish to use diceToOrderedHand(a, b, c) at the end to convert the 3 dice back
 # into a sorted hand.
 # Hint: Also, remember to use % to get the one's digit, and use //= to get rid of the one's digit.
-def dicetoorderedhand(a, b, c):
-		# your code goes here
-		if (a>=b and b>=c):
-			x = b
-		elif (a<b and b<c):
-			x= b
-		elif (a<b and b>c):
-			x =c
-		elif (a>b and b<c):
-			x=a
-		return int(str(max(a,b,c))+str(x)+str(min(a,b,c)))
-
 def playstep2(hand, dice):
 		x=hand%10
 		y=(hand//10)%10
@@ -47,11 +35,18 @@ def playstep2(hand, dice):
 			if (dice%10)>x:
 				k= int(str(dice%10)+str(x)+str(y))
 			else :
-				k = int(str(dice%10)+str(x)+str(y))
+				k = int(str(x)+str(y)+str(dice%10))
 		elif (y==z):
-			k= dicetoorderedhand(z,y,dice%10)
+			if (dice%10)>x:
+				k= int(str(dice%10)+str(x)+str(y))
+			else :
+				k = int(str(x)+str(y)+str(dice%10))			
 		elif (x==z):
-			k= dicetoorderedhand(x,z,dice%10)
+			if (dice%10)>x:
+				k= int(str(dice%10)+str(x)+str(y))
+			else :
+				k = int(str(x)+str(y)+str(dice%10))
+			
 
 
 	
