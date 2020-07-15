@@ -54,7 +54,7 @@ def playstep2(hand, dice):
 		if (n==dice%10):
 			k = int(str(max(dice%10,y,x,z))+str(x)+str((dice//10)%10))
 		else:
-			k = int(str(max(dice%10,y,x,z))+str(dice)+str((dice//10)%10))
+			k = int(str(max(dice%10,y,x,z))+str(dice%10)+str((dice//10)%10))
 		m = dice//100
 	arr = (k,m)
 	return arr
