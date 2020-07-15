@@ -7,3 +7,4 @@
 def trianglearea(s1, s2, s3):
 	# your code goes here
 	s = (s1+s2+s3)/2
+	area = math.sqrt()
