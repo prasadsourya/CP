@@ -7,4 +7,4 @@
 
 def handtodice(hand):
 	# your code goes here
-	arr = ()
+	arr = (x,y,z)
