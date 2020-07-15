@@ -31,7 +31,7 @@ class Classy(object):
                 sum = sum + 5
             else:
                 sum = sum + 0
-            return sum
+        return sum
 
         
 
