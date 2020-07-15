@@ -28,31 +28,32 @@
 # into a sorted hand.
 # Hint: Also, remember to use % to get the one's digit, and use //= to get rid of the one's digit.
 def playstep2(hand, dice):
-		x=hand%10
-		y=(hand//10)%10
-		z=(hand//100)%10
-		if (x==y):
-			if (dice%10)>x:
-				k= int(str(dice%10)+str(x)+str(y))
-			else :
-				k = int(str(x)+str(y)+str(dice%10))
-			m = dice//10
-		elif (y==z):
-			if (dice%10)>x:
-				k= int(str(dice%10)+str(z)+str(y))
-			else :
-				k = int(str(z)+str(y)+str(dice%10))
-			m = dice//10		
-		elif (x==z):
-			if (dice%10)>x:
-				k= int(str(dice%10)+str(x)+str(z))
-			else :
-				k = int(str(x)+str(z)+str(dice%10))
-			m = dice//10
-		else:
-			k = int(str(max(x,y,z))+str(dice%10)+str((dice//10)%10))
-		arr = {k,m}
-		return arr
+	x=hand%10
+	y=(hand//10)%10
+	z=(hand//100)%10
+	if (x==y):
+		if (dice%10)>x:
+			k= int(str(dice%10)+str(x)+str(y))
+		else :
+			k = int(str(x)+str(y)+str(dice%10))
+		m = dice//10
+	elif (y==z):
+		if (dice%10)>x:
+			k= int(str(dice%10)+str(z)+str(y))
+		else :
+			k = int(str(z)+str(y)+str(dice%10))
+		m = dice//10		
+	elif (x==z):
+		if (dice%10)>x:
+			k= int(str(dice%10)+str(x)+str(z))
+		else :
+			k = int(str(x)+str(z)+str(dice%10))
+		m = dice//10
+	else:
+		k = int(str(max(x,y,z))+str(dice%10)+str((dice//10)%10))
+		m = dice//100
+	arr = (k,m)
+	return arr
 			
 
 
