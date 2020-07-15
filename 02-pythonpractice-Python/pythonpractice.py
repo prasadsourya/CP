@@ -19,6 +19,7 @@ class Classy(object):
     def __init__(self):
         self.items = []
     def fancy(self,x):
+        items = []
         items.append(x)
     def classiness(self,x):
         sum =0
