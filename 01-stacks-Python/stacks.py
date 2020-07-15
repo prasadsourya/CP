@@ -30,8 +30,8 @@ class LinkedList(object):
             self.head=Element(new_element)
         else :
             new =Element(new_element)
-            new_Element.next=self.head
-            self.head=new_Element
+            new.next=self.head
+            self.head=new
 
 
 
