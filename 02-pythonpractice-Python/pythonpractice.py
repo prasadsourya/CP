@@ -20,7 +20,7 @@ class Classy(object):
         self.items = []
     def classy(self,x):
         self.items.append(x)
-    def classiness(self,x):
+    def classiness(self,items):
         sum =0
         if x=="tophat":
             sum = sum + 2
