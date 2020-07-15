@@ -52,7 +52,7 @@ def playstep2(hand, dice):
 	else:
 		k = int(str(max(x,y,z))+str(dice%10)+str((dice//10)%10))
 		m = dice//100
-	arr = (k,m)
+	arr = (m,k)
 	return arr
 			
 
