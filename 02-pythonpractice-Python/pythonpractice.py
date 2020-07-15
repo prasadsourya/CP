@@ -22,13 +22,16 @@ class Classy(object):
         self.items.append(x)
     def classiness(self,items):
         sum =0
-        if x=="tophat":
-            sum = sum + 2
-        elif x=="bowtie":
-            sum = sum + 4
-        elif x=="monocle":
-            sum = sum + 5
+        for i in items:
+            if x=="tophat":
+                sum = sum + 2
+            elif x=="bowtie":
+                sum = sum + 4
+            elif x=="monocle":
+                sum = sum + 5
         else:
             sum = sum + 0
         return sum
+
+        
 
