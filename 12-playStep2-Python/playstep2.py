@@ -38,7 +38,7 @@ def playstep2(hand, dice):
 				k = int(str(x)+str(y)+str(dice%10))
 		elif (y==z):
 			if (dice%10)>x:
-				k= int(str(dice%10)+str(x)+str(y))
+				k= int(str(dice%10)+str(z)+str(y))
 			else :
 				k = int(str(x)+str(y)+str(dice%10))			
 		elif (x==z):
