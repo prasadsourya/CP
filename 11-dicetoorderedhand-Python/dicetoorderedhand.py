@@ -13,4 +13,4 @@
 
 def dicetoorderedhand(a, b, c):
 	# your code goes here
-	return max(a,b,c)
+	return max(a,b,c)+""+x+""+min(a,b,c)
