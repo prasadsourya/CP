@@ -6,4 +6,5 @@
 
 def fun_getinrange(x, bound1, bound2):
 	# your code goes here
-	return -1
+	if (x<bound2 and x>bound1):
+		return -1
