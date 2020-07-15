@@ -18,7 +18,7 @@ Use the test cases below to guide you!"""
 class Classy(object):
     def __init__(self):
         self.items = []
-    def fancy(self,x):
+    def classy(self,x):
         self.items = []
         self.items.append(x)
     def classiness(self,x):
