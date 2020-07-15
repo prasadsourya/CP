@@ -20,7 +20,7 @@ class Classy(object):
         self.items = []
     def fancy(self,x):
         self.items = []
-        items.append(x)
+        self.items.append(x)
     def classiness(self,x):
         sum =0
         if x=="tophat":
