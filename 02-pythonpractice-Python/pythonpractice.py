@@ -21,7 +21,7 @@ class Classy(object):
     def fancy(self,x):
         items = []
         items.append(x)
-    def classiness(self,x):
+    def classiness(x):
         sum =0
         if x=="tophat":
             sum = sum + 2
