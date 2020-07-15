@@ -23,11 +23,12 @@ class Classy(object):
     def classiness(self,x):
         sum =0
         if x=="tophat":
-            return 2
+            sum = sum + 2
         elif x=="bowtie":
-            return 4
+            sum = sum + 4
         elif x=="monocle":
-            return 5
+            sum = sum + 5
         else:
-            return 0
+            sum = sum + 0
+        return sum
 
