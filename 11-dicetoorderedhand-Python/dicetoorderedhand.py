@@ -13,5 +13,6 @@
 
 def dicetoorderedhand(a, b, c):
 	# your code goes here
-	
+	if (a>b and b>c):
+		x = b
 	return max(a,b,c)+""+x+""+min(a,b,c)
