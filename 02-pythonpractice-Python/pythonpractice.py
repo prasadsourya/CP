@@ -29,8 +29,8 @@ class Classy(object):
                 sum = sum + 4
             elif x=="monocle":
                 sum = sum + 5
-        else:
-            sum = sum + 0
+            else:
+                sum = sum + 0
         return sum
 
         
