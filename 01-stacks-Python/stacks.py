@@ -29,7 +29,7 @@ class LinkedList(object):
         if self.head==None:
             self.head=Element(new_element)
         else :
-            new_element =Element(new_element)
+            new_Element =Element(new_element)
             new_element.next=self.head
             self.head=new_element
 
@@ -39,7 +39,8 @@ class LinkedList(object):
         "Delete the first (head) element in the LinkedList as return it"
         popped_element=self.head
         self.head = self.head.next
-        popped_element
+        popped_element.next=None
+        return popped_element.value
 
 class stack(object):
     def __init__(self,top=None):
