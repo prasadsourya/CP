@@ -21,4 +21,4 @@ def dicetoorderedhand(a, b, c):
 		x =c
 	elif (a>b and b<c):
 		x=a
-	return max(a,b,c)+""+x+""+min(a,b,c)
+	return str(max(a,b,c))+str(x)+strmin(a,b,c)
