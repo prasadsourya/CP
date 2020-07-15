@@ -20,9 +20,9 @@ class Classy(object):
         self.items = []
     def addItem(self,x):
         self.items.append(x)
-    def classiness(self,items):
+    def classiness(self):
         sum =0
-        for i in items:
+        for i in self.items:
             if i=="tophat":
                 sum = sum + 2
             elif i=="bowtie":
