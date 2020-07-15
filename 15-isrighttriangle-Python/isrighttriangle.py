@@ -14,6 +14,7 @@ def isrighttriangle(x1, y1, x2, y2, x3, y3):
 	y=b*b
 	z=c*c
 	m=assertAlmostEqual(x+y, z)
+	
 	if ((x+y==z)or(y+z==x)or(x+z==y)):
 		return True
 	else :
