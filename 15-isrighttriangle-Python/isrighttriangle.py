@@ -10,4 +10,11 @@ def isrighttriangle(x1, y1, x2, y2, x3, y3):
 	a = math.sqrt((x1-x2)*(x1-x2)+(y1-y2)*(y1-y2))
 	b = math.sqrt((x3-x2)*(x3-x2)+(y3-y2)*(y3-y2))
 	c = math.sqrt((x1-x3)*(x1-x3)+(y1-y3)*(y1-y3))
-	
+	x=a*a
+	y=b*b
+	z=c*c
+	m=assertAlmostEqual(x+y, z)
+	if ((x+y==z)or(y+z==x)or(x+z==y)):
+		return True
+	else :
+		return False
