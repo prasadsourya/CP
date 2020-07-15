@@ -18,8 +18,15 @@ Use the test cases below to guide you!"""
 class Classy(object):
     def __init__(self):
         self.items = []
-    def fancy(x):
-        items.append(x)
-    def classiness(x):
+    def fancy(self,x):
+        self.append(x)
+    def classiness(self,x):
         if x=="tophat":
             return 2
+        elif x=="bowtie":
+            return 4
+        elif x=="monocle":
+            return 5
+        else:
+            return 0
+
