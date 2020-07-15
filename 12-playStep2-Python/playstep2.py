@@ -40,12 +40,12 @@ def dicetoorderedhand(a, b, c):
 		return int(str(max(a,b,c))+str(x)+str(min(a,b,c)))
 
 def playstep2(hand, dice):
-		
 		x=hand%10
 		y=(hand//10)%10
 		z=(hand//100)%10
 		if (x==y):
-			k=object1.dicetoorderedhand(x,y,dice%10)
+			if (dice%10)>x:
+				k= int(str())
 		elif (y==z):
 			k= dicetoorderedhand(z,y,dice%10)
 		elif (x==z):
