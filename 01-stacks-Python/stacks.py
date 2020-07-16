@@ -29,7 +29,7 @@ class LinkedList(object):
         if self.head==None:
             self.head=Element(new_element)
         else :
-            new =Element(new_element)
+            new_part =Element(new_element)
             new.next=self.head
             self.head=new
 
