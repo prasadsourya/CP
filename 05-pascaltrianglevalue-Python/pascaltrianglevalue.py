@@ -7,9 +7,9 @@
 from math import factorial
 
 def combination(n,k):
-	return int(factorial(n)/factorial(k))
+	return int(factorial(n)/(factorial(k)*factorial(n-k)))
 
 
 def fun_pascaltrianglevalue(row, col):
-	result = len(list(combinations(range(n),k)))
+	result = combination(row,col)
 	return result
