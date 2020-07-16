@@ -31,7 +31,7 @@ class LinkedList(object):
         else :
             new_part =Element(new_element)
             new_part.next=self.head
-            self.head=new
+            self.head=new_part
 
 
 
