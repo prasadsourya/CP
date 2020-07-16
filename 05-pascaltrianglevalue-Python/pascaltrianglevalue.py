@@ -4,9 +4,12 @@
 # Triangle where the triangle starts at row 0, and 
 # each row starts at column 0. If either row or col 
 # are not legal values, return None, instead of crashing. 
+from math import factorial
 
-
+def combination(n,k):
+	return int()
 
 
 def fun_pascaltrianglevalue(row, col):
-	result = len(list())
+	result = len(list(combinations(range(n),k)))
+	return result
