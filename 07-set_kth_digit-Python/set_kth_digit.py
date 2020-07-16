@@ -13,7 +13,7 @@ def fun_set_kth_digit(n, k, d):
 			if (i==len(x)-k-1):
 				temp=temp+str(d)
 			elif (k==len(x)):
-				temp			
+				temp = temp+str(d)			
 			else:
 				temp = temp+x[i]
 		return int(temp)			
