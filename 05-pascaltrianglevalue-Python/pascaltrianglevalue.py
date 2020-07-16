@@ -7,7 +7,7 @@
 from math import factorial
 
 def combination(n,k):
-	return int()
+	return int(factorial(n)/factorial(k))
 
 
 def fun_pascaltrianglevalue(row, col):
