@@ -8,5 +8,6 @@
 
 def fun_set_kth_digit(n, k, d):
 		x=str(n)
-		
+		for i in range(len(x)):
+			x[len(x)-k-1]=d
 
