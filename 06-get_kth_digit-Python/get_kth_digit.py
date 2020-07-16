@@ -8,6 +8,6 @@
 def fun_get_kth_digit(digit, k):
 	x= str(digit)
 	if (k<len(x)):
-	    return x[len(x)-k-1]
+	    return int(x[len(x)-k-1])
 	else:
 		return 0
