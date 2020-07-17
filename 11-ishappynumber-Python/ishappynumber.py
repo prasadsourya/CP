@@ -24,7 +24,7 @@ def ishappynumber(n):
 		add=0
 		while(temp>0):
 			d =temp%10
-			sum=sum+d*d
+			add=sum+d*d
 			temp=temp/10
 		if (sum ==1):
 			return True
