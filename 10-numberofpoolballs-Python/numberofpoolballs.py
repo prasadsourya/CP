@@ -14,3 +14,4 @@ def numberofpoolballs(rows):
 	while (temp!=0):
 		sum = sum +temp
 		temp=temp-1
+	return sum
