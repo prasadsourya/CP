@@ -29,7 +29,7 @@ def ishappynumber(n):
 		if (temp==1):
 			return True
 		add=temp
-	if (add==7):
+	if (temp==7):
 		return True
 	return False
 
