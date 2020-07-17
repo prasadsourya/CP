@@ -16,17 +16,17 @@
 
 def ishappynumber(n):
 	# your code goes here
-	temp=abs(n)
-	x=str(abs(n))
-	
-	sum=0
-	if(n==1):
+	if(n==1 or n==7):
 		return True
-	elif(n<=0):
-		return False
-	else:
-		while(sum!=temp):
-			for i in x:
-				sum=sum+int(i)*int(i)
-			return ishappynumber(sum)
-		return False
+	temp=abs(n)
+	sum=str(abs(n))
+	while (temp>9):
+		temp=0
+		while(temp>0):
+			d =temp%10
+			sum=sum+d*d
+			temp=temp/10
+		if (sum==1):
+			return True
+		temp=sum
+
