@@ -10,5 +10,7 @@ import math
 def fun_rectangle_overlap(left1, top1, width1, height1, left2, top2, width2, height2):
     if(int(math.sqrt((left1-left2)*(left1-left2)+(top1-top2)*(top1-top2)))<=int(math.sqrt((width1*width1)+(height1*height1)))):
         return True
+    elif(int(math.sqrt((left1-left2)*(left1-left2)+(top1-top2)*(top1-top2)))<=int(math.sqrt((width2*width2)+(height2*height2)))):
+        return True
     else:
         return False        
