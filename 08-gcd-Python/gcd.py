@@ -10,6 +10,8 @@
 
 def gcd(m, n):
 	# your code goes here
+	if (n==0):
+		return 1
 	z=m%n
 	if (z==0):
 		return n
