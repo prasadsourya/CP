@@ -71,7 +71,7 @@ def playstep2(hand, dice):
 
 def score(digit):
 	a=digit%10
-	b=digit
+	b=(digit/10)
 
 def bonusplaythreediceyahtzee(dice):
 	# Your code goes here
