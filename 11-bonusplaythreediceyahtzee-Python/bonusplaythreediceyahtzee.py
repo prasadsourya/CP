@@ -87,7 +87,7 @@ def score(digit):
 
 def bonusplaythreediceyahtzee(dice):
 	# Your code goes here
-	new_dice=int(str((dice)%10)+str((dice//10)%10)+str((dice//100)%10))
+	new_dice=int(str((dice//100)%10)+str((dice//10)%10)+str((dice)%10))
 	hand = int(str((dice//1000000)%10)+str((dice//100000)%10)+str((dice//10000)%10)+str((dice//1000)%10))
 	x=playstep2(hand,new_dice)
 	y=x[0]
