@@ -27,6 +27,5 @@ def ishappynumber(n):
 		while(sum!=temp):
 			for i in x:
 				sum=sum+int(i)*int(i)
-		
-
-		return ishappynumber(sum)
+			return ishappynumber(sum)
+		return False
