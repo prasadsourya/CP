@@ -12,5 +12,8 @@ def gcd(m, n):
 	# your code goes here
 	z=m%n
 	while (z!=0):
-		gcd(n,z)
+		if (z==0):
+			break
+		else:
+			gcd(n,z)
 	return n
