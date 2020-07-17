@@ -19,7 +19,7 @@ def fun_fabricyards(inches):
 	elif(inches<=36):
 		return 1
 	elif(inches%36==0):
-		return
+		return inches/36
 	else:
 		return int(inches/36+1)
 
