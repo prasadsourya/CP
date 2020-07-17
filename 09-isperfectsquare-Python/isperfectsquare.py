@@ -7,3 +7,5 @@ def isperfectsquare(n):
 	# your code goes here
 	if (type(n)==int):
 		return type(math.sqrt(n)==int)
+	else:
+		return False
