@@ -10,6 +10,7 @@
 
 def gcd(m, n):
 	# your code goes here
-	x=m
-	y=n
-	gcd(x,y)
+	z=m%n
+	while (z!=0):
+		gcd(n,z)
+	return z
