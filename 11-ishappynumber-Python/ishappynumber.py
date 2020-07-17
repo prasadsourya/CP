@@ -22,8 +22,8 @@ def ishappynumber(n):
 	add =n
 	while (temp>9):
 		temp=0
-		while(temp>0):
-			d =temp%10
+		while(add>0):
+			d =add%10
 			add=add+d*d
 			temp=temp/10
 		if (add ==1):
