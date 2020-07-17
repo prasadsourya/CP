@@ -10,4 +10,6 @@
 
 def gcd(m, n):
 	# your code goes here
-	pass
+	x=m
+	y=n
+	gcd(x,y)
