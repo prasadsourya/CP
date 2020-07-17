@@ -26,9 +26,9 @@ def ishappynumber(n):
 			d =add%10
 			temp=temp+d*d
 			add=add/10
-		if (add ==1):
+		if (temp==1):
 			return True
-		temp=add
+		add=add
 	if (add==7):
 		return True
 	return False
