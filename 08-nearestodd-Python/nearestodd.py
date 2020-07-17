@@ -6,8 +6,8 @@
 
 
 def fun_nearestodd(n):
-	if (n%2==0):
-		return int(n+1.0)
+	if (n%2==0 and int(n)%2==0):
+		return int(n-1)
 	else:
 		return int(n)
 
