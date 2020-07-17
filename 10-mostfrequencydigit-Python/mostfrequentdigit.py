@@ -13,5 +13,5 @@ def mostfrequentdigit(n):
 	# your code goes here
 	min=0
 	for i in range(10):
-		count
+		countOccurences()
 		
