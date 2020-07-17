@@ -5,9 +5,9 @@
 import math
 def isperfectsquare(n):
 	# your code goes here
-	if (x>=0):
-		return type(math.sqrt(x)==int)
-	elif(x<0):
+	if (type(n)==int and n>=0):
+		return type(math.sqrt(n)==int)
+	elif(type(n)==int and n<0):
 		return False	
 	else:
 		return False
