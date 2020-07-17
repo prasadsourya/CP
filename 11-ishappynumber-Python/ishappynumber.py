@@ -16,7 +16,7 @@
 
 def ishappynumber(n):
 	# your code goes here
-	if((n==1) or (n==7)):
+	if(n==1 or n==7):
 		return True
 	temp=n
 	sum =n
@@ -29,5 +29,7 @@ def ishappynumber(n):
 		if (sum ==1):
 			return True
 		temp=sum
+	if (sum==7):
+		return True
 	return False
 
