@@ -71,4 +71,4 @@ def playstep2(hand, dice):
 
 def bonusplaythreediceyahtzee(dice):
 	# Your code goes here
-	new_dice=str(dice)
+	new_dice=str((dice/1000)%10)+str(dice)
