@@ -6,8 +6,9 @@
 # computer graphics, where (0,0) is at the left-top corner of the screen, and while 
 # the x-coordinate goes up while you head right, the y-coordinate goes up while you 
 # head down (so we say that "up is down")
-
+import math
 def fun_rectangle_overlap(left1, top1, width1, height1, left2, top2, width2, height2):
-    return True
-
-        
+    if(int(math.sqrt((left1-left2)*(left1-left2)+(top1-top2)*(top1-top2)))<=int(math.sqrt((width1*width1)+(height1*height1)))):
+        return True
+    else:
+        return False        
