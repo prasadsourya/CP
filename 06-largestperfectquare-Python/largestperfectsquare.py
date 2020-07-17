@@ -16,7 +16,7 @@ def isPerfectSquare(n):
 def largestperfectsquare(n):
 	# your code goes here
 	max=0
-	for i in range(n):
+	for i in range(n+1):
 		if isPerfectSquare(i):
 			max=i
 	return max
