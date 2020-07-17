@@ -18,6 +18,9 @@ def ishappynumber(n):
 	# your code goes here
 	x=str(n)
 	sum=0
-	for i in x:
-		sum=sum+int(i)*int(i)
-	return ishappynumber(sum)
+	if(n==1):
+		return True
+	else:
+		for i in x:
+			sum=sum+int(i)*int(i)
+		return ishappynumber(sum)
