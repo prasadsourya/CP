@@ -71,4 +71,4 @@ def playstep2(hand, dice):
 
 def bonusplaythreediceyahtzee(dice):
 	# Your code goes here
-	pass
+	new_dice=str(dice)
