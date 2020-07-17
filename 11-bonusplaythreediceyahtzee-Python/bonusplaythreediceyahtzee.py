@@ -37,7 +37,37 @@
 # assert(bonusPlayThreeDiceYahtzee(2633413) == (633, 16))
 # assert(bonusPlayThreeDiceYahtzee(2333413) == (333, 29))
 # assert(bonusPlayThreeDiceYahtzee(2333555) == (555, 35))
-
+def playstep2(hand, dice):
+	x=hand%10
+	y=(hand//10)%10
+	z=(hand//100)%10
+	if (x==y):
+		if (dice%10)>x:
+			k= int(str(dice%10)+str(x)+str(y))
+		else :
+			k = int(str(x)+str(y)+str(dice%10))
+		m = dice//10
+	elif (y==z):
+		if (dice%10)>x:
+			k= int(str(dice%10)+str(z)+str(y))
+		else :
+			k = int(str(z)+str(y)+str(dice%10))
+		m = dice//10		
+	elif (x==z):
+		if (dice%10)>x:
+			k= int(str(dice%10)+str(x)+str(z))
+		else :
+			k = int(str(x)+str(z)+str(dice%10))
+		m = dice//10
+	else:
+		n= max(dice%10,y,x,z)
+		if (n==dice%10):
+			k = int(str(max(dice%10,y,x,z))+str(z)+str((dice//10)%10))
+		else:
+			k = int(str(max(dice%10,y,x,z))+str(dice%10)+str((dice//10)%10))
+		m = dice//100
+	arr = (k,m)
+	return arr
 
 def bonusplaythreediceyahtzee(dice):
 	# Your code goes here
