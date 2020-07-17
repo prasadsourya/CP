@@ -8,7 +8,7 @@ def isperfectsquare(n):
 	x=int(n)
 	if (x>=0):
 		return type(math.sqrt(x)==int)
-	elif(n<0):
+	elif(x<0):
 		return False	
 	else:
 		return False
