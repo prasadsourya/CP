@@ -14,4 +14,4 @@ def gcd(m, n):
 	if (z==0):
 		return n
 	while (z!=0):
-		gcd(n,z)
+		gcd(n,m%n)
