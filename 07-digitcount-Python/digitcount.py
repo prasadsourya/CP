@@ -7,9 +7,10 @@
 
 def digitcount(n):
 	# your code goes here
-	count =0
+	count =1
 	while(n>1):
-		n=n/10
 		count+=1
+		n=n/10
+		
 	return count
 
