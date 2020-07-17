@@ -18,6 +18,7 @@ def ishappynumber(n):
 	# your code goes here
 	temp=abs(n)
 	x=str(abs(n))
+	
 	sum=0
 	if(n==1):
 		return True
@@ -28,4 +29,4 @@ def ishappynumber(n):
 			for i in x:
 				sum=sum+int(i)*int(i)
 			return ishappynumber(sum)
-		print(False)
+		return False
