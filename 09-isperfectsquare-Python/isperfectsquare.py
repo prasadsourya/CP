@@ -5,9 +5,10 @@
 import math
 def isperfectsquare(n):
 	# your code goes here
-	if (type(n)==int and n>=0):
-		return type(math.sqrt(n))==int
-	elif(type(n)==int and n<0):
+	if (type(n)!=str  and n>=0):
+		if (type(math.sqrt(n))==int):
+			return True
+	elif(type(n)!=st and n<0):
 		return False	
 	else:
 		return False
