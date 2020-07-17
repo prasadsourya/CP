@@ -6,13 +6,13 @@ def countOccurences(n,d):
 	while (n):
 		if (n%10==d):
 			count+=1
-		n=n//10
+		n=int(n/10)
 	return count
 
 def mostfrequentdigit(n):
 	# your code goes here
 	min=0
-	result=1
+	result=0
 	for i in range(10):
 		count1=countOccurences(n,i)
 		if (count1<min):
