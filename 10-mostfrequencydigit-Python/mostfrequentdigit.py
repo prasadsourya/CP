@@ -4,4 +4,7 @@
 
 def mostfrequentdigit(n):
 	# your code goes here
-	pass
+	x=str(n)
+	min=0
+	for i in range(1,len(x)):
+		
