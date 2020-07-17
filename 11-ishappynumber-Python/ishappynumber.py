@@ -28,4 +28,4 @@ def ishappynumber(n):
 			for i in x:
 				sum=sum+int(i)*int(i)
 			return ishappynumber(sum)
-		return False
+		print(False)
