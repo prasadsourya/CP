@@ -25,6 +25,9 @@ def fun_fabricyards(inches):
 
 def fun_fabricexcess(inches):
 	# your code goes here
-	return 1
+	if (inches==0):
+		return 0
+	else:
+		return fun_fabricyards
 
 
