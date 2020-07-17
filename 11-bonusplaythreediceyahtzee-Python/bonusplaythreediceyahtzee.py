@@ -62,7 +62,7 @@ def playstep2(hand, dice):
 	else:
 		n= max(dice%10,y,x,z)
 		if (n==dice%10):
-			k = int(str(max(dice%10,y,x,z))+str(y)+str((dice//10)%10))
+			k = int(str(max(dice%10,y,x,z))+str(x)+str((dice//10)%10))
 		else:
 			k = int(str(max(dice%10,y,x,z))+str(dice%10)+str((dice//10)%10))
 		m = dice//100
