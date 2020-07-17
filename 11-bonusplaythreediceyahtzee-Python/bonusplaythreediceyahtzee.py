@@ -75,10 +75,20 @@ def score(digit):
 	c=(digit/100)%10
 	if(a==b==c):
 		sum= 20+3*a
+	elif(a==b):
+		sum = 10+2*a
+	elif(b==c):
+		sum =10+2*b
+	elif(c==a):
+		sum=10+2*c
+	else:
+		sum=max(a,b,c)
+	return sum
 
 def bonusplaythreediceyahtzee(dice):
 	# Your code goes here
 	new_dice=int(str((dice)%10)+str((dice/10)%10)+str((dice/100)%10))
 	hand = int(str((dice/1000000)%10)+str((dice/100000)%10)+str((dice/10000)%10)+str((dice/1000)%10))
 	x=playstep2(hand,new_dice)
+	y=score()
 
