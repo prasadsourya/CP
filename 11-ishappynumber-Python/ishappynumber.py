@@ -19,7 +19,7 @@ def ishappynumber(n):
 	if(n==1 or n==7):
 		return True
 	temp=abs(n)
-	sum =abs(n)
+	sum =n
 	while (sum>9):
 		sum=0
 		while(temp>0):
