@@ -7,10 +7,12 @@
 
 def digitcount(n):
 	# your code goes here
-	count =1
-	while(n>1):
-		count+=1
-		n=n/10
-		
-	return count
+	if(n==0):
+		return 1
+	else:
+		count =0
+		while(abs(n)>1):
+			n=n/10
+			count+=1		
+		return count
 
