@@ -5,4 +5,5 @@
 import math
 def isperfectsquare(n):
 	# your code goes here
-	return type(math.sqrt(n)==int)
+	if (type(n)==int):
+		return type(math.sqrt(n)==int)
