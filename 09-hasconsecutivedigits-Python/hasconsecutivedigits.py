@@ -8,5 +8,11 @@ def hasconsecutivedigits(n):
 		return False
 	else:
 		x=str(n)
+		count=0
 		for i in x:
-			
+			if (i==i+1):
+				count+=1
+		if count>0:
+			return True
+		else:
+			return False
