@@ -13,4 +13,3 @@ def gcd(m, n):
 	z=m%n
 	while (z!=0):
 		gcd(n,z)
-	return n
