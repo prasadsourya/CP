@@ -5,7 +5,7 @@
 import math
 def isperfectsquare(n):
 	# your code goes here
-	x=int(n)
+	x=i
 	if (x>=0):
 		return type(math.sqrt(x)==int)
 	elif(x<0):
