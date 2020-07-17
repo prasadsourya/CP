@@ -28,7 +28,7 @@ def ishappynumber(n):
 			temp=temp/10
 		if (add ==1):
 			return True
-		temp=sum
+		temp=add
 	if (add==7):
 		return True
 	return False
