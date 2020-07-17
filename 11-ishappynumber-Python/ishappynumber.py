@@ -24,10 +24,9 @@ def ishappynumber(n):
 	elif(n<=0):
 		return False
 	else:
-		for i in x:
-			sum=sum+int(i)*int(i)
-			if (sum==temp):
-				
-				break
+		while(sum!=temp):
+			for i in x:
+				sum=sum+int(i)*int(i)
+		
 
 		return ishappynumber(sum)
