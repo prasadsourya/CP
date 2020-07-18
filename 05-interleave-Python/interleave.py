@@ -12,7 +12,7 @@ def fun_interleave(s1,s2):
 	s_max=max(len(s1),len(s2))
 	result=""
 	if (s_min==s_max):
-		for i in range(s_min):
+		for i in range(s_min+1):
 			result =result +s1[i]+s2[i]
 		return result 
 	else:
