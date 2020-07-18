@@ -15,7 +15,11 @@ def is_happy_number(n):
 	past=set()
 	while(n!=1):
 		n=sum(int(i)**2 for i in str(n))
+		if n in past:
+			return False
+		past.add(n)
+	return True
 
 def fun_nth_happy_prime(n):
-	prim
-	return 
+	happy_prime_numbers=[x for x in range(500) if (is_happy_number(n) and is_prime_number(n))][:n]
+	return happy_prime_numbers[-1]
