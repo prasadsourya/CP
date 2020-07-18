@@ -11,6 +11,6 @@ def removeduplicate(text):
 			if (text[i]==text[j-i]):
 				break
 		if (j==i):
-			str[index]=str[i]
-			
-	return text
+			text[index]=text[i]
+			index+=1
+	return ""
