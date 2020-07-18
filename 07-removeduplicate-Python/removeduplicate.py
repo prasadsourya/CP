@@ -7,11 +7,11 @@ def removeduplicate(text):
 	# Your code goes here
 	text1=list(text)
 	index=0
-	for i in range(len(text1)):
-		for j in range(i+1):
-			if (text1[i]==text1[j-i]):
+	for i in range(0,len(text1)):
+		for j in range(0,i+1):
+			if (text1[i]==text1[j]):
 				break
 		if (j==i):
-			text[index]=text[i]
+			text1[index]=text1[i]
 			index+=1
-	return "".join(text[:index])
+	return "".join(text1[:index])
