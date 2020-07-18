@@ -13,7 +13,7 @@
 def fun_applycaesarcipher(msg, shift):
 	msg1=""
 	for i in msg:
-		msg1=msg1+chr(ord(i)-shift)
+		msg1=msg1+chr(ord(i)+shift)
 	return msg1
 
 
