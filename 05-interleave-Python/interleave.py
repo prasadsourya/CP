@@ -15,5 +15,14 @@ def fun_interleave(s1,s2):
 		for i in range(s_min):
 			result =result +s1[i]+s2[i]
 		return result 
-	eli
+	else:
+		for i in range(s_min):
+			result =result +s1[i]+s2[i]
+		for j in range(s_max-s_min-1):
+			if(len(s1)>len(s2)):
+				result = result+s1[j]
+			else:
+				result=result+s2[j]
+		return result 
+
 	
