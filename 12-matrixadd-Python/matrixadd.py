@@ -17,12 +17,8 @@
 
 def matrixadd(L, M):
 	# Your code goes here
-	N=[[0,0,0],[0,0,0]]
 	if (len(L[0])!=len(M[0]) or len(L[1])!=len(M[1])):
 		return None
 	else:
-		for i in range(len(L)):
-			for j in range(len(L[0])):
-				N[i][j]=L[i][j]+M[i][j]
-	for n in N:
-		print(n)
+		N=[map(sum, zip(*t))for t in zip(L,M)]
+		return N 
