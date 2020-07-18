@@ -9,7 +9,13 @@
 # assert(nthHappyNumber(5) == 23)
 # assert(nthHappyNumber(6) == 28)
 # assert(nthHappyNumber(7) == 31)
-
+def is_happy_number(n):
+	sum=d=0
+	while(n>0):
+		d=n%10
+		sum=sum+(d*d)
+		
 
 def fun_nth_happy_number(n):
+
 	return 0
