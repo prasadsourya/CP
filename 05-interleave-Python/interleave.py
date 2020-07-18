@@ -9,6 +9,7 @@
 
 def fun_interleave(s1,s2):
 	s_min=min(len(s1),len(s2))
+	
 
 	result=""
 	for i in range(s):
