@@ -14,7 +14,7 @@ def is_prime_number(n):
 def is_happy_number(n):
 	past=set()
 	while(n!=1):
-		n=sum(int(i)**2)
+		n=sum(int(i)**2 for i in str(n))
 
 def fun_nth_happy_prime(n):
 	prim
