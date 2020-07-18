@@ -24,5 +24,5 @@ def matrixadd(L, M):
 		x=len(L[0])
 		for i in len(L):
 			for j in x:
-				N[i][j]=L[i][j]+M[i][j]
+				N[i].add(L[i][j]+M[i][j])
 	return N
