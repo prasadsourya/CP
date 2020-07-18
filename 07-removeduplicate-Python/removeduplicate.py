@@ -7,7 +7,10 @@ def removeduplicate(text):
 	# Your code goes here
 	index=0
 	for i in range(len(text)):
-		for j in range(0,i+1):
+		for j in range(i+1):
 			if (text[i]==text[j-i]):
-				text.replace(text[j],'',2)
+				break
+		if (j==i):
+			str[index]=str[i]
+			
 	return text
