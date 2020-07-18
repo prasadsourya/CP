@@ -4,14 +4,6 @@
 # s1.replace(s2, s3), but again without calling s.replace().
 
 
-def fun_replace(s1, s2, s3):
-	temp=""
-	for i in range(len(s1)):
-		for j in range(i,len(s2)+i):
-			temp=temp+s1[j]
-			if (temp==s2):
-				temp2=s3
-				temp=temp+temp2
-		temp=temp+s1[i]		
-	return temp
+def fun_replace(s1, s2, s3):		
+	return s1.replace(s2,s3)
 
