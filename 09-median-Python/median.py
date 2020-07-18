@@ -11,4 +11,4 @@ def median(a):
 	else:
 		a.sort()
 		if (length%2==0):
-			return a[length/2]+a[length/2-1]
+			return a[length/2]+a[length/2]-1
