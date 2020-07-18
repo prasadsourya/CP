@@ -14,7 +14,12 @@ def is_happy_number(n):
 	while(n>0):
 		d=n%10
 		sum=sum+(d*d)
-		
+		n=n//10
+	return sum
+	result=n
+	while(result!=1 and result!=4):
+		result=is_happy_number(result)
+	
 
 def fun_nth_happy_number(n):
 
