@@ -5,4 +5,5 @@
 
 def median(a):
 	# your code goes here
-	pass
+	a.sort()
+	
