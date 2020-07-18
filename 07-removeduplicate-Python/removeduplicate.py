@@ -5,4 +5,8 @@
 
 def removeduplicate(text):
 	# Your code goes here
-	pass
+	for i in range(len(text)):
+		for j in range(i+1,len(text)+i+1):
+			if (text[i]==text[j]):
+				text.replace(text[j])
+	return text
