@@ -6,11 +6,7 @@
 
 def isrotated(str1, str2):
 	#Your code goes here
-	if (str1==str2[::-2]):
-		return True
-	elif (str1==str2[::-1]):
-		return True
-	elif (str2==str1[-2::-1]):
-		return True	
-	else:
-		return False
+	for i in  range(1,len(str2)+1):
+		if (abs(ord(str2[i-1])-ord(str2[i]))!=1 and abs(ord(str2[i-1])-ord(str2[i+1]))!=25 ):
+			return False
+	return True
