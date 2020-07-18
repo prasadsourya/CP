@@ -20,4 +20,4 @@ def is_happy_number(n):
 
 def fun_nth_happy_number(n):
 
-	return [i for i in range(500) if is_happy_number(i)][:10]
+	happ_numbers=[i for i in range(500) if is_happy_number(i)][:n]
