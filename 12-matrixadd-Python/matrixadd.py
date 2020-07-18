@@ -22,7 +22,7 @@ def matrixadd(L, M):
 		return None
 	else:
 		x=len(L[0])
-		for i in len(L):
-			for j in x:
+		for i in range(len(L)):
+			for j in range(x):
 				N[i].add(L[i][j]+M[i][j])
 	return N
