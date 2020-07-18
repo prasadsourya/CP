@@ -21,5 +21,5 @@ def is_happy_number(n):
 	return True
 
 def fun_nth_happy_prime(n):
-	happy_prime_numbers=[x for x in range(500) if (is_happy_number(x) and is_prime_number(x))][:n]
-	return happy_prime_numbers[n-1]
+	happy_prime_numbers=[x for x in range(500) if (is_happy_number(x) and is_prime_number(x))][:n+1]
+	return happy_prime_numbers[-1]
