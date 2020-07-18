@@ -12,7 +12,11 @@
 def is_happy_number(n):
 	past =set()
 	while n!=1:
-		sum=int
+		n=sum(int(i)**2 for i in str(n))
+		if n in past:
+			return False
+		past.add(sum)
+	return False
 
 def fun_nth_happy_number(n):
 
