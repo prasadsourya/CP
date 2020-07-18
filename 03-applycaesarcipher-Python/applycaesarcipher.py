@@ -17,7 +17,7 @@ def fun_applycaesarcipher(msg, shift):
 		if (sum>90 and sum<97):
 			msg1=msg1+chr(sum-26)
 		elif (sum>122):
-			msg1
+			msg1=msg1+chr(sum-26)
 	return msg1
 
 
