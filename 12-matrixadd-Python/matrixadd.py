@@ -17,7 +17,7 @@
 
 def matrixadd(L, M):
 	# Your code goes here
-	N=[[0,0],[0,0]]
+	N=[[0,0,0],[0,0,0]]
 	if (len(L[0])!=len(M[0]) or len(L[1])!=len(M[1])):
 		return None
 	else:
