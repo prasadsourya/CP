@@ -22,7 +22,7 @@ def fun_interleave(s1,s2):
 			if(len(s1)>len(s2)):
 				result = result+s1[j]
 			else:
-				result=result+s2[j+1]
+				result=result+s2[j]
 		return result 
 
 	
