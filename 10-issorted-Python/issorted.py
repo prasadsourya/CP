@@ -7,7 +7,7 @@
 
 def issorted(a):
 	# your code goes here
-	if (len(a)<=1):
+	if (a==[]):
 		return True
 	else:
 		for i in range(1,len(a)):
