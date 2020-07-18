@@ -15,9 +15,9 @@ def is_happy_number(n):
 		n=sum(int(i)**2 for i in str(n))
 		if n in past:
 			return False
-		past.add(sum)
-	return False
+		past.add(n)
+	return True
 
 def fun_nth_happy_number(n):
 
-	return 0
+	return [i for i in range[500] if is_happy_number(i)][:10]
