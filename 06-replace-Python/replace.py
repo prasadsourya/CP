@@ -6,8 +6,11 @@
 
 def fun_replace(s1, s2, s3):
 	temp=""
-	for i in s1:
-		for j in range(len(s2)):
-			temp=temp+i		
-	return s1
+	for i in range(len(s1)):
+		for j in range(i,len(s2)+i):
+			temp=temp+s1[j]
+			if (temp==s2):
+				temp==s3
+		temp=temp+s1[i]		
+	return temp
 
