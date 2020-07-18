@@ -10,5 +10,7 @@ def isrotated(str1, str2):
 		return True
 	elif (str1==str2[::-1]):
 		return True
+	elif (str2==str1[-2::-1]):
+		return True	
 	else:
 		return False
