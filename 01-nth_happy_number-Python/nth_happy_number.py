@@ -21,5 +21,5 @@ def is_happy_number(n):
 def fun_nth_happy_number(n):
 
 	happy_numbers=[i for i in range(500) if is_happy_number(i)][:n]
-	return happy_numbers[n-1]
+	return happy_numbers[n-2]
 
