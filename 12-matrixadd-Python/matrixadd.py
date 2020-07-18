@@ -19,6 +19,8 @@ def matrixadd(L, M):
 	# Your code goes here
 	if (len(L[0])!=len(M[0]) or len(L[1])!=len(M[1])):
 		return None
+	elif(len(L)==1):
+		N[0][0]=L[0]
 	else:
 		N=[list(map(sum, zip(*t))) for t in zip(L,M)]
 		return N 
