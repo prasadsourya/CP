@@ -13,4 +13,4 @@ def removeduplicate(text):
 		if (j==i):
 			text[index]=text[i]
 			index+=1
-	return "".join()
+	return "".join(str[:index])
