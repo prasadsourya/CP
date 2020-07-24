@@ -10,7 +10,7 @@ def fixmostlymagicsquare(L):
 	# Your code goes here
 	l=[]
 	l1=[]
-	a,s1=0,0
+	s=0
 	rowid,colid=0,0
 	for i in L:
 		l.append(sum(i))
@@ -27,4 +27,5 @@ def fixmostlymagicsquare(L):
 			s=z
 			colid=l1.index(z)
 	s0=l1[colid-1]
-	l[rowlid][colid]=((L[rowlid][colid])-(s-s0))
+	l[rowid][colid]=((L[rowid][colid])-(s-s0))
+	return L
