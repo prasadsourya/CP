@@ -2,7 +2,10 @@
 # and returns the alternating sum of the list, where every other value is subtracted 
 # rather than added. For example: alternatingSum([1,2,3,4,5]) returns 1-2+3-4+5 
 # (that is, 3). If L is empty, return 0. You may not use loops/iteration in this problem.
-
+def add(l,i,count):
+	if i==len(l):
+		return count
+	
 
 def fun_recursions_alternatingsum(l): 
 	return 0
