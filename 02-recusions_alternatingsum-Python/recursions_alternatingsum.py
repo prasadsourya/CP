@@ -5,7 +5,13 @@
 def add(l,i,count):
 	if i==len(l):
 		return count
-	
+	if i%2==0:
+		count+=l[i]
+	else:
+		count-=l[i]
+	return add(l,i+1,count)
 
 def fun_recursions_alternatingsum(l): 
+	if len(l)==0:return 0
+	
 	return 0
