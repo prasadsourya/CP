@@ -14,4 +14,5 @@
 
 def destructiveshortenlongruns(L, k):
 	# Your code goes here
-	pass
+	l=[]
+	
