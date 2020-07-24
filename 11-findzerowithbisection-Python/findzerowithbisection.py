@@ -17,3 +17,4 @@ def findzerowithbisection(x, epsilon):
 			max=mid
 		else:
 			min=mid
+		m
