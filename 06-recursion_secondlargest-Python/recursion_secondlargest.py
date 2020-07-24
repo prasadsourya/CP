@@ -30,7 +30,12 @@ def second_largest(L,i,m1,m2):
 			temp=m1
 			m1=L[i]
 			m2=temp
+		elif L[i]>m2:
+			m2=L[i]
+		return second_largest(L,i+1,m1,m2)
 		
 def recursion_secondlargest(L):
 	# Your code goes here
-	pass
+	if len(L)<2:
+		return None
+	return second_largest(L,0,0,0)
