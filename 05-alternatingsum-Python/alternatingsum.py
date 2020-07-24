@@ -8,7 +8,8 @@
 def fun_alternatingsum(a):
 	if len(a)==0:return 0
 	x=0
-	
+	for i in range(0,len(a),2):
+		x=x+a[i]
 	return 0
 
 
