@@ -17,5 +17,5 @@ def fun_getaverage(s):
 			l.append(int(i))
 		except ValueError:
 			continue
-	return 0.0
+	return sum(l)/len(l)
 
