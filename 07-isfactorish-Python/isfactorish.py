@@ -22,5 +22,5 @@ def fun_isfactorish(n):
 			list1.append(i)
 			if n%int(i)==0:
 				count+=1
-	return count
+	return count==3
 
