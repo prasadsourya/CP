@@ -24,3 +24,5 @@ def destructiveshortenlongruns(L, k):
 			if L[j]!=L[i]:
 				l.append(L[i])
 				break
+	l.append(L[-1])
+	return l
