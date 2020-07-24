@@ -7,7 +7,7 @@
 def fun_matrixmultiply(m1, m2):
     if len(m1[0])!=len(m2):
         return None
-    result=[[0 for x in range()]]
+    result=[[0 for x in range(len(m2[0]))] for y in range(len(m2))]
 
 
 
