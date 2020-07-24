@@ -19,7 +19,7 @@ def binary_search(input_array, value):
         if (value==input_array[mid]):
             return mid
         elif (value<input_array[mid]):
-            max= mid+1
+            max= mid-1
         else:
             min = mid+1
         mid = (max+min)//2
