@@ -9,8 +9,10 @@
 # Remember to not use strings. You may not use loops/iteration in this problem.
 def get_even_digit(x,i):
 	if i==len(x):
-		if i==o:
+		if i==0:
 			return 0
-			
+		return int(x)
+	y=x[i]
+	
 def fun_recursion_onlyevendigits(l): 
 		return []
