@@ -9,4 +9,5 @@
 
 def lookandsay(a):
 	# Your code goes here
-	pass
+	l=[]
+	
