@@ -10,5 +10,6 @@
 
 
 def fun_getaverage(s): 
+	x=s.split()
 	return 0.0
 
