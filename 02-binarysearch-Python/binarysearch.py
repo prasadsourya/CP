@@ -22,4 +22,5 @@ def binary_search(input_array, value):
             max= mid+1
         else:
             min = mid+1
+        mid = (max+min)//2
     return -1
