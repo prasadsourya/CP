@@ -18,6 +18,7 @@
 
 def fun_wordwrap(s, n):
 	sum= ""
+	x=s.strip()
 	
 
 
