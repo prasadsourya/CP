@@ -21,5 +21,9 @@ def fun_nth_palindromic_prime(n):
 		return 2
 	m=3
 	l=[]
-	
+	while True:
+		if is_palindrome(m):
+			if is_prime(m):
+				l.append(m)
+		
 	return 0
