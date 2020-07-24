@@ -21,7 +21,7 @@ def fun_wordwrap(s, n):
 	x=s.strip()
 	z=x.replace(" ","-")
 	for i in range(0,len(z),n):
-		sum=sum+z[i:i+n]
+		sum=sum+z[i:i+n]+"\n"
 
 
  
