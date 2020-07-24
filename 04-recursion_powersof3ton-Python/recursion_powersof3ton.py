@@ -7,7 +7,8 @@ def powersOf3ToN(l,n,i):
 		return 1
 	if 3**i<n:
 		l.append(3**i)
-	return powersOf3ToN
+	return powersOf3ToN(l,n,i+1)
+	
 def recursion_powersof3ton(n):
 	# Your code goes here
 	pass
