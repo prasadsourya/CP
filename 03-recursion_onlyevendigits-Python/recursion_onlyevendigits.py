@@ -21,4 +21,4 @@ def get_even_digit(x,i):
 def fun_recursion_onlyevendigits(l): 
 		if l==[]:return []
 		for i in range(len(l)):
-			l[i]=get_even_digit()
+			l[i]=get_even_digit(str(l[i]),0)
