@@ -7,6 +7,10 @@
 # So: onlyEvenDigits([43, 23265, 17, 58344]) returns [4, 226, 0, 844]. 
 # Also the function returns the empty list if the original list is empty. 
 # Remember to not use strings. You may not use loops/iteration in this problem.
-
+def get_even_digit(x,i):
+	if i==len(x):
+		if i==o:
+			return 0
+			
 def fun_recursion_onlyevendigits(l): 
 		return []
