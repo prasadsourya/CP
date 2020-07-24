@@ -12,6 +12,10 @@
 def fun_getaverage(s): 
 	x=s.split(",")
 	l=[]
-	
+	for i in x:
+		try:
+			l.append(int(i))
+		except ValueError:
+			continue
 	return 0.0
 
