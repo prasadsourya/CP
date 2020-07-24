@@ -14,8 +14,12 @@ def lookandsay(a):
 	x=a[0]
 	l1=[]
 	for i in range(len(a)):
-		if a=
-		if i not in l1:
-			l.append((a.count(i),i))
-		l1.append(i)
+		if a[i]==x:
+			count = count+1
+		else:
+			l.append((count,x))
+			x=a[i]
+			count=1
+		if (i==len(a)-1):
+			l.append()
 	return l
