@@ -7,5 +7,11 @@
 
 
 def fixmostlymagicsquare(L):
-	pass
 	# Your code goes here
+	l=[]
+	l1=[]
+	a,s1=0,0
+	rowid,colid=0,0
+	for i in L:
+		l.append(sum(i))
+	
