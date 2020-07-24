@@ -13,4 +13,4 @@ def lookandsay(a):
 	l1=[]
 	for i in a:
 		if i not in l1:
-			l.append(())
+			l.append((a.count(i)))
