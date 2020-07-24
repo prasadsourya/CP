@@ -13,7 +13,7 @@ def lookandsay(a):
 	count=0
 	x=a[0]
 	if(len(a)==0):
-			return []
+		return []
 	for i in range(len(a)):
 		if a[i]==x:
 			count = count+1
