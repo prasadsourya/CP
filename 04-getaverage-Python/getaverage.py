@@ -10,6 +10,8 @@
 
 
 def fun_getaverage(s): 
-	x=s.split()
+	x=s.split(",")
+	l=[]
+	
 	return 0.0
 
