@@ -10,12 +10,12 @@ def fixmostlymagicsquare(L):
 	# Your code goes here
 	l=[]
 	l1=[]
-	s=0
+	s,s0=0,0
 	rowid,colid=0,0
 	for i in L:
 		l.append(sum(i))
 	for j in L:
-		if(l.count(j)==1):
+		if l.count(j)==1:
 			rowid=l.index(j)
 	for x in range(len(L)):
 		for y in L:
