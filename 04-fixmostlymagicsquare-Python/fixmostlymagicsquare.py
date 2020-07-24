@@ -27,5 +27,5 @@ def fixmostlymagicsquare(L):
 			s=z
 			colid=l1.index(z)
 	s0=l1[colid-1]
-	l[rowid][colid]=((L[rowid][colid])-(s-s0))
+	L[rowid][colid]=((L[rowid][colid])-(s-s0))
 	return L
