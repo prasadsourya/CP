@@ -14,6 +14,7 @@ def lookandsay(a):
 	x=a[0]
 	l1=[]
 	for i in range(len(a)):
+		if a=
 		if i not in l1:
 			l.append((a.count(i),i))
 		l1.append(i)
