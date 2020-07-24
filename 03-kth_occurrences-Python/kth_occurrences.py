@@ -6,7 +6,7 @@
 
 def fun_kth_occurrences(s, n):
 	dic={}
-	
+	s=s.replace(" ")
 	return 'a'
 
 
