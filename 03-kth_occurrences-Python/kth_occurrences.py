@@ -7,7 +7,10 @@
 def fun_kth_occurrences(s, n):
 	dic={}
 	s=s.replace(" ","")
-	
+	for i in s:
+		if i not in dic:
+			dic[i]=s.count(i)
+			
 	return 'a'
 
 
