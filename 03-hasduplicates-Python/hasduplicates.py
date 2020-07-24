@@ -5,4 +5,13 @@
 
 def hasduplicates(L):
 	# Your code goes here
-	pass
+	l=[]
+	l1=[]
+	for i in L:
+		for j in i:
+			if j in l:
+				continue
+			l.append(j)
+	for i in L:
+		l1.extend(i)
+	return len(l1)!=len(l)
