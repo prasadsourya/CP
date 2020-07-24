@@ -13,4 +13,4 @@ def recursion_powersof3ton(n):
 	# Your code goes here
 	if n<1:
 		return None
-	return powersOf3ToN([],round(n),0)
+	return powersOf3ToN([],round(n+1),0)
