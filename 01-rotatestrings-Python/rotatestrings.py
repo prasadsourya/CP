@@ -9,6 +9,7 @@
 def fun_rotatestrings(s, n):
 	if (n>0):
 		k=len(s)
-		if k
+		if k<n:
+			x=n-k
 	return s
 
