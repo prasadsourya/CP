@@ -18,7 +18,11 @@
 # Hint: Do not slice the list L, but rather adjust the indexes into L. 
 def binary_search(l,L,min,max,x):
 	if max>=min:
-		mid=(min+max)
+		mid=(min+max)//2
+		l,append(mid,L[mid])
+		if L[mid]==x:
+			if len(l)==0:
+				return l.append()
 def recursion_binarysearchvalues(L, v):
 	# Your codes goes here
 	pass
