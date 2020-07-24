@@ -20,3 +20,6 @@ def shortenlongruns(L, k):
 		for j in range(i,x):
 			if L[j]!=L[i]:
 				l.append(L[i])
+				break
+	l.append(L[-1])
+	return l
