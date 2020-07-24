@@ -12,3 +12,5 @@ def multipolynomials(p1, p2):
 		pos1=len(p1)-(i+1)
 		for j in range(len(p2)):
 			pos2 = len(p2)-(j+1)
+			l[len(l)-(pos1+pos2+1)]+=p1[i]*p2[j]
+	return l
