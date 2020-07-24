@@ -11,6 +11,7 @@ def lookandsay(a):
 	# Your code goes here
 	l=[]
 	count=0
+	x=a[0]
 	l1=[]
 	for i in a:
 		if i not in l1:
