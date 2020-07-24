@@ -25,5 +25,5 @@ def fun_nth_palindromic_prime(n):
 		if is_palindrome(m):
 			if is_prime(m):
 				l.append(m)
-		
+		m+=1
 	return 0
