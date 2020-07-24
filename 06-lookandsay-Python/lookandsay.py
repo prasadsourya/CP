@@ -12,9 +12,10 @@ def lookandsay(a):
 	l=[]
 	count=0
 	x=a[0]
-	l1=[]
 	for i in range(len(a)):
-		if a[i]==x:
+		if(len(a)==0):
+			return a
+		elif a[i]==x:
 			count = count+1
 		else:
 			l.append((count,x))
