@@ -28,4 +28,4 @@ def fun_nth_palindromic_prime(n):
 		m+=1
 		if len(l)==n:
 			break
-	return 0
+	return l[n-1]
