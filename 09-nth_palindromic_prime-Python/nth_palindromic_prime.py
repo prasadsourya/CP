@@ -26,4 +26,6 @@ def fun_nth_palindromic_prime(n):
 			if is_prime(m):
 				l.append(m)
 		m+=1
+		if len(l)==n:
+			break
 	return 0
