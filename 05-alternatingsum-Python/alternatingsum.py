@@ -11,6 +11,6 @@ def fun_alternatingsum(a):
 	for i in range(0,len(a),2):
 		x=x+a[i]
 	b= (sum(a[1::2]))
-	return 0
+	return x-b
 
 
