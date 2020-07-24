@@ -22,5 +22,4 @@ def lookandsay(a):
 			count=1
 		if (i==len(a)-1):
 			l.append((count,x))
-			
 	return l
