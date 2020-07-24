@@ -10,4 +10,7 @@
 def lookandsay(a):
 	# Your code goes here
 	l=[]
-	
+	l1=[]
+	for i in a:
+		if i not in l1:
+			l.append(())
