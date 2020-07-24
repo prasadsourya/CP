@@ -10,6 +10,7 @@ def fun_alternatingsum(a):
 	x=0
 	for i in range(0,len(a),2):
 		x=x+a[i]
+	b= (sum())
 	return 0
 
 
