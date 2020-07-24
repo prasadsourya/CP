@@ -11,5 +11,6 @@ def fun_rotatestrings(s, n):
 		k=len(s)
 		if k<n:
 			x=n-k
+			return 
 	return s
 
