@@ -7,7 +7,12 @@ def is_prime(n):
 	for i in range(2,n):
 		if n%i==0:
 			return False
-	
+	return True
+
+def is_palindrome(n):
+	n=str(n)
+	if n[::]==n[::-1]:
+		return 
 
 
 def fun_nth_palindromic_prime(n):
