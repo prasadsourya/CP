@@ -19,4 +19,7 @@ def is_palindrome(n):
 def fun_nth_palindromic_prime(n):
 	if (n==0):
 		return 2
+	m=3
+	l=[]
+	
 	return 0
