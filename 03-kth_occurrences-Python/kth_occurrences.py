@@ -14,7 +14,10 @@ def fun_kth_occurrences(s, n):
 	if (len(sort_dic)<n):
 		a=sort_dic[0]
 		return a[0]
-		
+	for i in range(len(sort_dic)):
+		if i == n-1:
+			a=sort_dic[i]
+			
 	return 'a'
 
 
