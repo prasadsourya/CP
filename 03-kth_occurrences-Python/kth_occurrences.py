@@ -5,6 +5,7 @@
 
 
 def fun_kth_occurrences(s, n):
+	dic={}
 	
 	return 'a'
 
