@@ -22,7 +22,15 @@ def second_largest(L,i,m1,m2):
 			m2=temp
 		elif L[i]>m2:
 			m2=L[i]
-		return second_largest(L,i+1)
+		return second_largest(L,i+1,m1,m2)
+	else:
+		if i==0:
+			m1=L[i]-1
+		if L[i]>=m1:
+			temp=m1
+			m1=L[i]
+			m2=temp
+		
 def recursion_secondlargest(L):
 	# Your code goes here
 	pass
