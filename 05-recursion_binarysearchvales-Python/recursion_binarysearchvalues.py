@@ -19,7 +19,7 @@
 def binary_search(l,L,min,max,x):
 	if max>=min:
 		mid=(min+max)//2
-		l.append(mid,L[mid])
+		l.append((mid,L[mid]))
 		if L[mid]==x:
 			if len(l)==0:
 				return l.append((L.index(x),x))
