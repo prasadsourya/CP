@@ -13,6 +13,7 @@ def fun_kth_occurrences(s, n):
 	sort_dic=sorted(dic.items(),key=lambda x:x[1], reverse =True)
 	if (len(sort_dic)<n):
 		a=sort_dic[0]
+		return a[0]
 		
 	return 'a'
 
