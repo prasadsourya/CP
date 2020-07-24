@@ -14,7 +14,7 @@ def lookandsay(a):
 	x=a[0]
 	for i in range(len(a)):
 		if(len(a)==0):
-			return l
+			return []
 		elif a[i]==x:
 			count = count+1
 		else:
