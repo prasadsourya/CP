@@ -8,6 +8,9 @@
 # so fun_nthsmithnumber(1) should return 22
 l=[]
 import math
+def prime_factors(n):
+    while(n%2==0):
+        l.append()
 
 def fun_nth_smithnumber(n):
     return 1
