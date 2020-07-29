@@ -6,5 +6,9 @@
 
 
 def fun_carrylessadd(x, y):
+	sum=0
+	total=0
+	place=1
+	while(True):LookupError
 	return 0
 
