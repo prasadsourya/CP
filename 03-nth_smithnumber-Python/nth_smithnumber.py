@@ -27,7 +27,10 @@ def is_smith(n):
         if len(str(i))>1:
             i=sum(list(str(i)))
     b=sum(x)
-    
+    if a==b:
+        return True
+    else:
+        return False
 
 def fun_nth_smithnumber(n):
     return 1
