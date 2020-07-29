@@ -20,5 +20,8 @@ def prime_factors(n):
         l.append(n)
         return l
 
+def is_smith(n):
+    a=sum(list())
+
 def fun_nth_smithnumber(n):
     return 1
