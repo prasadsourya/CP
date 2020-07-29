@@ -18,6 +18,7 @@ def prime_factors(n):
             n=n//i
     if n>2:
         l.append(n)
+        return l
 
 def fun_nth_smithnumber(n):
     return 1
