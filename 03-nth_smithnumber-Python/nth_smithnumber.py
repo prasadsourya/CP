@@ -37,4 +37,4 @@ def fun_nth_smithnumber(n):
         if is_smith(j):
             L.append(j)
         j=j+1
-    return 1
+    return L[n]
