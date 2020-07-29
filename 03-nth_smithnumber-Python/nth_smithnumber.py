@@ -25,7 +25,8 @@ def is_smith(n):
     x=prime_factors(a)
     for i in x:
         if len(str(i))>1:
-            i=sum(list())
+            i=sum(list(str(i)))
+        
 
 def fun_nth_smithnumber(n):
     return 1
