@@ -18,7 +18,7 @@ def prime_factors(n):
             n=n//i
     if n>2:
         l.append(n)
-        return l
+    return l
 
 def is_smith(n):
     a=sum(list(map(int,str(n))))
