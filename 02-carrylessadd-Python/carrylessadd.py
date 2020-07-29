@@ -12,6 +12,6 @@ def fun_carrylessadd(x, y):
 	while(True):
 		if x==0 and y==0:
 			break
-		sum=x%10
+		sum=(x%10)
 	return 0
 
