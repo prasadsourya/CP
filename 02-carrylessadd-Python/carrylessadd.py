@@ -9,6 +9,9 @@ def fun_carrylessadd(x, y):
 	sum=0
 	total=0
 	place=1
-	while(True):LookupError
+	while(True):
+		if x==0 and y==0:
+			break
+		
 	return 0
 
