@@ -29,8 +29,8 @@ def is_smith(n):
     b=sum(x)
     if a==b:
         return True
-    else:
-        return False
+    return False
 
 def fun_nth_smithnumber(n):
+    
     return 1
