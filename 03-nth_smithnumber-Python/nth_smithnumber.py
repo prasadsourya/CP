@@ -30,7 +30,10 @@ def is_smith(n):
     if a==b:
         return True
     return False
-
+L=[]
 def fun_nth_smithnumber(n):
-    
+    j=0
+    while(len(L)<=n):
+        if is_smith(j):
+            L.append(j)
     return 1
