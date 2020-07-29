@@ -10,7 +10,9 @@ l=[]
 import math
 def prime_factors(n):
     while(n%2==0):
-        l.append()
+        l.append(2)
+        n=n//2
+    
 
 def fun_nth_smithnumber(n):
     return 1
