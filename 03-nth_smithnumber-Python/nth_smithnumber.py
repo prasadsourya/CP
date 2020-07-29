@@ -22,6 +22,8 @@ def prime_factors(n):
 
 def is_smith(n):
     a=sum(list(map(int,str(n))))
+    x=prime_factors(a)
+    
 
 def fun_nth_smithnumber(n):
     return 1
