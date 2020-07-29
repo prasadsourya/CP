@@ -12,7 +12,10 @@ def prime_factors(n):
     while(n%2==0):
         l.append(2)
         n=n//2
-    
+    for i in range(3,int(math.sqrt(n))+1,2):
+        while n%i==0:
+            l.append(i)
+            
 
 def fun_nth_smithnumber(n):
     return 1
