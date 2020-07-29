@@ -18,6 +18,6 @@ def fun_carrylessadd(x, y):
 		total=total+(sum*place)
 		x=x//10
 		y=y//10
-		
+		place = place *10
 	return 0
 
