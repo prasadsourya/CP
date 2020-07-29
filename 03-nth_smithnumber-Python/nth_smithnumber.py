@@ -6,7 +6,8 @@
 # counted twice, thus making 4 a Smith Number.
 # so fun_nthsmithnumber(0) should return 4
 # so fun_nthsmithnumber(1) should return 22
-
+l=[]
+import math
 
 def fun_nth_smithnumber(n):
     return 1
