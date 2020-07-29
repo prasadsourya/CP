@@ -13,6 +13,8 @@ def fun_carrylessadd(x, y):
 		if x==0 and y==0:
 			break
 		sum=(x%10)+(y%10)
+		if sum>=10:
+			sum=sum%10
 		
 	return 0
 
