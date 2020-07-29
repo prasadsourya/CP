@@ -16,6 +16,8 @@ def fun_carrylessadd(x, y):
 		if sum>=10:
 			sum=sum%10
 		total=total+(sum*place)
+		x=x//10
+		y=y//10
 		
 	return 0
 
